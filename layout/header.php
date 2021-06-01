@@ -131,8 +131,8 @@ nav ul li ul li a {
 }
 
 .icone_community {
-    height: 100px;
-    margin-top: -35px;
+    height: 40px;
+    margin-top: -15px;
 }
 
 .icone_boutique {
@@ -205,18 +205,13 @@ nav ul li ul li a {
     }
     
     .list_item:nth-child(2) .item{
-        margin-left: -35px;
+        margin-left: 0px;
     }
 
     .list_item:nth-child(4) {
          
         background: #0f3558;
 
-    }
-
-    .icone_community {
-        margin-left: 25px;
-        margin-right: -20px;
     }
 
     .icone_boutique {
@@ -294,7 +289,7 @@ nav ul li ul li a {
 
             <li class="list_item">
                 <div class="item">
-                    <img src="asset/image/icone_community.png" alt="" class="icone_community">
+                    <img src="asset/image/equipe.png" alt="" class="icone_community">
                     Communauté
                 </div>
 

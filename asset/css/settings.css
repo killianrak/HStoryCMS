@@ -197,6 +197,29 @@ body, html {
     display: none;
 }
 
+@media all and (max-width: 1380px) {
+
+    .openForm {
+
+        transform: translate( 90%, -56%) !important; 
+        z-index: 0 !important; 
+        opacity: 1 !important;
+     }
+     
+     .openFormEmail {
+         transform: translate( 124%, -56%) !important;  
+         z-index: 0 !important;
+         opacity: 1 !important;
+     }
+
+     .settings-main .formulaire {
+ 
+        transform: translate(-50%, -57%);
+
+}
+   
+}
+
 @media all and (max-width: 1024px) {
     .openForm {
         transform: translate(-50%, -50%) !important;
