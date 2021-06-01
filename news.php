@@ -64,19 +64,19 @@ include "layout/header.php";
      <div class="hasSent">
 
         <img src="https://habbo.com/habbo-imaging/avatarimage?figure=hr-3531-1407-61.hd-209-20.ch-3498-1409.lg-3058-91.sh-3524-64-110.fa-3344-110.cc-3002-110&size=n&direction=2&head_direction=2&gesture=std&headonly=1" alt="">
-       <span>Test : </span><span class="message">Ceci est un test de commentaire !</span>
+       <span class="pseudo">Test : </span><span class="message">Ceci est un test de commentaire !</span>
 
      </div>
 
 
      <div class="hasSent">
        <img src="https://habbo.com/habbo-imaging/avatarimage?figure=hr-3531-1407-61.hd-209-20.ch-3498-1409.lg-3058-91.sh-3524-64-110.fa-3344-110.cc-3002-110&size=n&direction=2&head_direction=2&gesture=std&headonly=1" alt="">
-       <span>Test : </span><span class="message">Ceci est un test de commentaire !</span>
+       <span class="pseudo">Test : </span><span class="message">Ceci est un test de commentaire !</span>
      </div>
 
      <div class="hasSent">
        <img src="https://habbo.com/habbo-imaging/avatarimage?figure=hr-3531-1407-61.hd-209-20.ch-3498-1409.lg-3058-91.sh-3524-64-110.fa-3344-110.cc-3002-110&size=n&direction=2&head_direction=2&gesture=std&headonly=1" alt="">
-       <span>Test : </span><span class="message">Ceci est un test de commentaire !</span>
+       <span class="pseudo">Test : </span><span class="message">Ceci est un test de commentaire !</span>
      </div>
    </div>
         

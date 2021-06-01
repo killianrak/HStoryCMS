@@ -1,0 +1,91 @@
+.main {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div[class^="gamer"] {
+    margin-bottom: 20px;
+}
+
+.top-title {
+    font-size: 1.4em;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gamer-girl .top-title {
+    background: #721a55;
+}
+
+.gamer-boy .top-title {
+    background: #B0061B;
+}
+
+span[class^="top-title"] {
+    padding: 10px;
+    display: block;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+}
+
+.gamer-all .top-title {
+    background: #153555;
+}
+
+.main ul {
+    background: white;
+    list-style-type: none;
+    border-radius: 0px 0px 5px 5px;
+    width: 300px;
+}
+
+.main ul .avatar {
+    font-size: 0.7em;
+    padding-bottom: 5px;
+}
+
+.main ul li {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+}
+
+.main ul img {
+    height: 80px;
+}
+
+.main div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.main div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    order: 3;
+}
+
+footer {
+    
+    display: table-row;
+    height: 1px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    background-color: rgba(66, 62, 62, 0.5);
+    color: white;
+}
+
+body, html {
+    display: table;
+    height: 100%;
+    width: 100%;
+}

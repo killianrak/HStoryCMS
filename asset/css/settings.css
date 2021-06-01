@@ -200,7 +200,6 @@ body, html {
 @media all and (max-width: 1380px) {
 
     .openForm {
-
         transform: translate( 90%, -56%) !important; 
         z-index: 0 !important; 
         opacity: 1 !important;

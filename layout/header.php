@@ -28,8 +28,7 @@ body {
     min-height: 100vh;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: url('./asset/image/bg1.png');
-    background-size: cover;
+    background: url('./asset/image/snowbg2.gif');
 }
 
 body, html {
