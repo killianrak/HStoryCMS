@@ -1,0 +1,246 @@
+
+
+
+
+.settings-nav ul {
+    display: flex !important;
+    flex-direction: column;
+    border-radius: 3px 3px 0px 3px;
+}
+
+.settings-nav {
+    display: block;
+    margin: 100px auto;
+}
+
+.sub-menu li {
+    font-size: 0.8em;
+}
+
+.sub-menu li:hover {
+    background: #092b4b;
+}
+
+nav ul li .sub-menu {
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-left: 25px;
+    border-bottom: 3px solid #092b4b;
+    width: 85%;
+}
+
+nav ul li .sub-menu1 {
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+.sub-menu1 li {
+    font-size: 0.8em;
+}
+
+div[class^="toggle"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 5px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+}
+
+input:checked[type="checkbox"] {
+    background: #03a9f4;
+}
+
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    transition: .5s;
+}
+
+input:checked[type="checkbox"]:before {
+    left: 30px;
+}
+
+.settings-main {
+    display: flex;
+    justify-content: center;
+}
+
+.settings-main .formulaire {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 72px;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        border: 2px solid white;
+        border-radius: 0px 4px 4px 0px;
+        padding: 10px;
+        height: 263px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -72%);
+        transition: all 0.5s;
+        z-index: -1;
+        opacity: 0;
+
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src:url('../polices/montserratbold/Montserrat-Bold.ttf.woff') format('woff'),
+        url('../polices/montserratbold/Montserrat-Bold.ttf.svg#Montserrat-Bold') format('svg'),
+        url('../polices/montserratbold/Montserrat-Bold.ttf.eot'),
+        url('../polices/montserratbold/Montserrat-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+.openForm {
+
+    transform: translate( 90%, -72%) !important; 
+    z-index: 0 !important; 
+    opacity: 1 !important;
+ }
+ 
+ .openFormEmail {
+     transform: translate( 124%, -72%) !important;  
+     z-index: 0 !important;
+     opacity: 1 !important;
+ }
+
+.overlay {
+    background: rgba(0,0,0,0);
+}
+
+.formulaire input {
+    outline: none;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid black;
+    font-family: 'Montserrat-Bold';
+    
+}
+
+.formulaire input[type="submit"] {
+    color: white;
+    background: #03a9f4;
+    border: #03a9f4;
+    cursor: pointer;
+}
+
+.formulaire label {
+    font-family: 'Montserrat-Bold';
+}
+
+.formulaire input[type="submit"]:hover {
+    color: white;
+    background: #045479;
+    border: #0579af;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    background-color: rgba(66, 62, 62, 0.5);
+    color: white;
+}
+
+body, html {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.buttonClose {
+    position: absolute;
+    color: #f5f5f5;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+
+}
+
+.buttonCloseShow {
+    display: none;
+}
+
+@media all and (max-width: 1024px) {
+    .openForm {
+        transform: translate(-50%, -50%) !important;
+        z-index: 0 !important;
+        opacity: 1 !important;
+    }
+
+    .openFormEmail {
+        transform: translate(-50%, -50%) !important;
+        z-index: 0 !important;
+        opacity: 1 !important;
+    }
+
+    .overlayy {
+      position: fixed;
+      top: 0px;
+      bottom: 0px;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+    }
+
+    .buttonCloseShow {
+        display: block;
+    }
+
+}
+
+@media all and (max-width: 640px) {
+
+     body {
+        background-size: 500%;
+    }
+
+      .settings-nav ul {
+          margin-top: 20px;
+      }
+     .settings-main .formulaire {
+          padding: 20px;
+      }
+
+      
+
+}
+
+
+

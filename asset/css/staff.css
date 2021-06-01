@@ -1,0 +1,113 @@
+.rank-name p {
+    padding: 3px;
+    color: white;
+    font-size: 2em;
+    background: rgba(24, 61, 96, 0.5);
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.membre {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.rank_block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rank {
+   margin-left: 150px;
+   margin-bottom: 20px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    background: #19436b;
+    color: white;
+    border-radius: 0px 3px 3px 0px;
+    max-width: 300px;
+}
+
+.infos span:not(:nth-child(1)) {
+    margin: 10px;
+}
+
+.infos span:nth-child(3) {
+    font-size: 0.8em;
+}
+
+.infos span:nth-child(2) {
+    font-style: italic;
+}
+
+.pseudo {
+    text-align: center;
+    background: #2e6292;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    margin-top: -15px;
+    border: 3px solid #18436b;
+    border-radius: 3px;
+    font-family: 'Montserrat-Bold';
+}
+
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background: #2e6292;
+    border-radius:100px;
+    border: 3px solid #18436b;
+    margin: 3px;
+}
+
+.fond {
+    background: #0c2f50;
+    border-radius: 3px 0px 0px 3px;
+    display: flex;
+}
+
+footer {
+    
+    display: table-row;
+    height: 1px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    background-color: rgba(66, 62, 62, 0.5);
+    color: white;
+    margin-top: 20px;
+}
+
+
+body, html {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src:url('../polices/montserratbold/Montserrat-Bold.ttf.woff') format('woff'),
+        url('../polices/montserratbold/Montserrat-Bold.ttf.svg#Montserrat-Bold') format('svg'),
+        url('../polices/montserratbold/Montserrat-Bold.ttf.eot'),
+        url('../polices/montserratbold/Montserrat-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media all and (max-width: 1024px){
+    .rank {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
