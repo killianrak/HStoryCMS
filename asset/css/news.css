@@ -145,18 +145,11 @@ textarea {
     border-bottom: 1px solid white;
 }
 
-.hasSent:after {
-
-    content: '';
-  display: block;
-  margin: auto;
-  height: 0.5px;
-  width: 100px;
-
-}
-
 .sent {  
-    background: grey;
+    background: #244F73;
+}
+.pseudo {
+    color: white;
 }
 
 .message {
